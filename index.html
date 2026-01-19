@@ -10,32 +10,36 @@
     <link rel="stylesheet" href ="./style.css">
 </head>
 <body>
-    <nav class="top_navbar navbar navbar-expand navbar-light shadow-sm">
-        <div class="container-fluid">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="page2.html">Page 2</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div>
-        <h1 class="pt-5 text-center">HOME PAGE</h1>
-    </div>
-
-    <div class="container">
-        <section>
-            <div class="card">
-                <div class="information-card-header card-header">
-                    <h2>Section Title Goes Here</h2>
-                </div>
-                <div class="information-card-body card-body">
-                    <p>The content of this section goes here</p>
-                </div>
+    <header>
+        <nav class="top_navbar navbar navbar-expand navbar-light shadow-sm">
+            <div class="container-fluid">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="page2.html">Page 2</a></li>
+                </ul>
             </div>
-        </section>
-    </div>
-
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1 class="pt-5 text-center">HOME PAGE</h1>
+        </div>
+        
+        <div class="container">
+            <section>
+                <div class="card">
+                    <div class="information-card-header card-header">
+                        <h2>Section Title Goes Here</h2>
+                    </div>
+                    <div class="information-card-body text-center my-4 card-body">
+                        <h3>Counter: <span id="counter-display">0</span></h3>
+                        <button id="counter-button" class="btn btn-primary">Click me</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+        
     <!-- Connect to your script file here -->
      <script src = "./script.js"></script>
 </body>
